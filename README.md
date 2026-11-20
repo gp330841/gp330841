@@ -1,6 +1,6 @@
 # Yogeshwar Patel
 
-**Senior Backend Engineer · Java, Spring Boot & distributed systems**
+**Senior Java Backend Engineer · Distributed Systems & Search**
 
 I build and operate backend services for fraud and risk, telecom onboarding, and e-commerce. My work spans REST APIs, event-driven processing, search infrastructure, and integrating LLMs into developer tools.
 
