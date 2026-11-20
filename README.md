@@ -1,42 +1,54 @@
-# Yogeshwar Patel
+![Yogeshwar Patel, Senior Java Backend Engineer](./portfolio-banner.jpg)
 
-**Senior Java Backend Engineer · Distributed Systems & Search**
+<p align="center">
+  <strong>Distributed Systems &amp; Search</strong><br>
+  <a href="https://linkedin.com/in/yogeshwar-patel-8a5a06120">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://leetcode.com/u/ShaktimaanNoob/">LeetCode</a>
+</p>
 
-I build and operate backend services for fraud and risk, telecom onboarding, and e-commerce. My work spans REST APIs, event-driven processing, search infrastructure, and integrating LLMs into developer tools.
+I build Java and Spring Boot services for fraud and risk, telecom onboarding, and e-commerce. My public projects explore event-driven search, retrieval-augmented generation, and real-time data processing.
 
-[LinkedIn](https://linkedin.com/in/yogeshwar-patel-8a5a06120) · [LeetCode](https://leetcode.com/u/ShaktimaanNoob/)
+## Impact in production
+
+| **30% lower latency** | **95% less manual review** | **10,000+ daily transactions** |
+| :---: | :---: | :---: |
+| Fraud operations notifications · EPAM Systems | ID verification for KYC · Airtel Africa | Order management · Cashify |
+
+<details>
+<summary><strong>How these results were achieved</strong></summary>
+
+- **EPAM Systems** · Moved a fraud operations notification workflow to a dedicated microservice.
+- **Airtel Africa** · Automated ID verification with OCR and routed low-confidence cases to manual review. Used Amazon SQS and asynchronous workers to cut bulk registration processing time by **40%**.
+- **Cashify** · Built the order management system with Spring Boot to handle high daily transaction volumes.
+
+</details>
 
 ## Selected projects
 
 ### [Code Intelligence Agent](https://github.com/gp330841/Code-Intelligence)
 
-A local RAG application for exploring Java codebases. It parses source into abstract syntax trees, maps dependencies between classes and methods, and retrieves relevant code from ChromaDB to answer questions with a local Ollama model.
+Explore a Java codebase with a local LLM. The agent parses source into abstract syntax trees, maps dependencies, and retrieves relevant code for each answer.
 
-**Stack** · Java 21, Spring Boot, Spring AI, ChromaDB, Ollama, Docker Compose
+`Java 21` `Spring Boot` `Spring AI` `ChromaDB` `Ollama` `Docker Compose`
 
 ### [Distributed Document Search Service](https://github.com/gp330841/DistributedDocumentSearchService)
 
-A multi-tenant search API. PostgreSQL stores the documents, Kafka decouples writes from Elasticsearch indexing, and Redis caches document lookups and search results.
+A multi-tenant search API that uses Kafka to decouple PostgreSQL writes from Elasticsearch indexing and Redis to cache reads.
 
-**Stack** · Java 21, Spring Boot, PostgreSQL, Elasticsearch, Kafka, Redis
+`Java 21` `Spring Boot` `PostgreSQL` `Elasticsearch` `Kafka` `Redis`
 
 ### [ProHuman](https://github.com/gp330841/ProHuman)
 
-A real-time conversation processing backend. It ingests audio over WebSockets and runs transcription, embeddings, and summary generation in asynchronous workers.
+A real-time conversation backend that ingests audio over WebSockets and runs transcription, embeddings, and summarization in asynchronous workers.
 
-**Stack** · Python, FastAPI, Celery, Redis, PostgreSQL (pgvector), MinIO
-
-## Impact in production
-
-- **EPAM Systems** · Migrated a fraud operations notification workflow to a dedicated microservice, cutting latency by **30%**.
-- **Airtel Africa** · Cut bulk registration processing time by **40%** with Amazon SQS and asynchronous workers. Automated ID verification with OCR, reducing manual KYC review by **95%**.
-- **Cashify** · Built a Spring Boot order management system handling **10,000+ transactions per day**.
+`Python` `FastAPI` `Celery` `Redis` `PostgreSQL / pgvector` `MinIO`
 
 ## Core skills
 
 - **Backend and testing** · Java, Spring Boot, Spring Data JPA, REST APIs, JUnit, Mockito, WireMock
 - **Messaging and data** · Kafka, Amazon SQS, Redis, PostgreSQL, MySQL, Elasticsearch
 - **Cloud and delivery** · AWS, Docker, Kubernetes, Jenkins
-- **Applied AI** · Spring AI, retrieval-augmented generation, semantic search, vector databases
+- **Applied AI** · Spring AI, RAG, semantic search, vector databases
 
 **Education** · B.Tech in Computer Science & Engineering, MNNIT Allahabad
